@@ -19,8 +19,8 @@ public class amazonSearchTest {
 	
 	WebDriver driver;
 	searchBarEntry searchBar = new searchBarEntry(driver);
-	String chromeAddress = "C:\\Users\\daniel.smith\\Documents\\selenium-2.53.0\\selenium-2.53.0\\chromedriver.exe";
-	String[] items = {"Battlefield 4", "gta V", "nba2k16", "nba 2k17"};
+	String chromeAddress = "C:\\Users\\daniel.smith\\Documents\\Selenium_items\\chromedriver.exe";
+	String[] items = {"Battlefield 4 - Xbox One", "Grand Theft Auto V - Xbox One", "Division - Xbox One", "Far Cry 5 - Xbox One Standard Edition"};
 	Random itemNumber = new Random();
 	
 	Point location = new Point(960, 0);
@@ -43,9 +43,8 @@ public class amazonSearchTest {
 	{
 		searchBar = new searchBarEntry(driver);
 		
-		searchBar.clickSearchBar();
-		searchBar.enterSearch(items[itemNumber.nextInt(4)]); //Random number to go through options
-		searchBar.selectItem();
+		searchBar.clickSearchBar();	
+		searchBar.selectItem(searchBar.enterSearch(items[itemNumber.nextInt(4)])); //Select item from array with an random number for the selection
 		System.out.println("Title of the item: " + searchBar.itemTitle().toString());
 		searchBar.addToCartbtn();
 		searchBar.viewCart();
