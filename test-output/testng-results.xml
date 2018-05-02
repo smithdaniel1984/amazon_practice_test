@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38219" started-at="2018-05-02T14:01:52Z" finished-at="2018-05-02T14:02:30Z">
+  <suite name="Default suite" duration-ms="19439" started-at="2018-05-02T19:35:15Z" finished-at="2018-05-02T19:35:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38219" started-at="2018-05-02T14:01:52Z" finished-at="2018-05-02T14:02:30Z">
-      <class name="mavenMod.amazonProject.amazonSearchTest">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:mavenMod.amazonProject.amazonSearchTest@68e7c8c3]" name="setupTest" is-config="true" duration-ms="9172" started-at="2018-05-02T10:01:52Z" finished-at="2018-05-02T10:02:01Z">
+    <test name="Default test" duration-ms="19439" started-at="2018-05-02T19:35:15Z" finished-at="2018-05-02T19:35:34Z">
+      <class name="mavenMod.amazonProject.departmentsChooseTest">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:mavenMod.amazonProject.departmentsChooseTest@40e60ece]" name="setupBrowser" is-config="true" duration-ms="8044" started-at="2018-05-02T15:35:15Z" finished-at="2018-05-02T15:35:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="searchBarTest()[pri:0, instance:mavenMod.amazonProject.amazonSearchTest@68e7c8c3]" name="searchBarTest" duration-ms="28263" started-at="2018-05-02T10:02:01Z" finished-at="2018-05-02T10:02:29Z">
+        </test-method> <!-- setupBrowser -->
+        <test-method status="PASS" signature="departmentSelectTest()[pri:0, instance:mavenMod.amazonProject.departmentsChooseTest@40e60ece]" name="departmentSelectTest" duration-ms="9041" started-at="2018-05-02T15:35:23Z" finished-at="2018-05-02T15:35:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchBarTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:mavenMod.amazonProject.amazonSearchTest@68e7c8c3]" name="closeBrowser" is-config="true" duration-ms="735" started-at="2018-05-02T10:02:29Z" finished-at="2018-05-02T10:02:30Z">
+        </test-method> <!-- departmentSelectTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:mavenMod.amazonProject.departmentsChooseTest@40e60ece]" name="closeBrowser" is-config="true" duration-ms="2309" started-at="2018-05-02T15:35:32Z" finished-at="2018-05-02T15:35:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- mavenMod.amazonProject.amazonSearchTest -->
+      </class> <!-- mavenMod.amazonProject.departmentsChooseTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

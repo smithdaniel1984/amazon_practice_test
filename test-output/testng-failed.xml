@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="mavenMod.amazonProject.amazonSearchTest">
+      <class name="mavenMod.amazonProject.departmentsChooseTest">
         <methods>
-          <include name="setupTest"/>
-          <include name="searchBarTest"/>
           <include name="closeBrowser"/>
+          <include name="departmentSelectTest"/>
+          <include name="setupBrowser"/>
         </methods>
-      </class> <!-- mavenMod.amazonProject.amazonSearchTest -->
+      </class> <!-- mavenMod.amazonProject.departmentsChooseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

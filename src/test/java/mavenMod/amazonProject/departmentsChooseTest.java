@@ -5,6 +5,8 @@
 
 package mavenMod.amazonProject;
 
+import static org.testng.Assert.assertTrue;
+
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +18,7 @@ import org.testng.annotations.Test;
 public class departmentsChooseTest {
 	
 	WebDriver driver;
-	String chromeAddress = "C:\\Users\\daniel.smith\\Documents\\selenium-2.53.0\\chromedriver.exe";
+	String chromeAddress = "C:\\Users\\daniel.smith\\Documents\\Selenium_items\\chromedriver.exe";
 	amazonHomePage homePage;
 	
 	Point location = new Point(960, 0);
@@ -39,7 +41,7 @@ public class departmentsChooseTest {
 		homePage = new amazonHomePage(driver);
 		
 		homePage.hoverDepartments();
-		
+				
 		homePage.departmentFireTV();
 		
 		homePage.getPageTitle();
