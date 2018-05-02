@@ -20,7 +20,6 @@ public class amazonHomePage {
 	WebDriverWait wait;
 	amazonHomePage homePage;
 	
-	//By departmentsLink = By.linkText("Departments");
 	By departmentsLink = By.xpath("//*[@id = 'nav-shop']");
 	By fireTvLink = By.xpath("//*[@id='nav-flyout-shopAll']/div[2]/span[7]/span");
 	By fireStickLink = By.xpath("//*[@id='nav-flyout-shopAll']/div[3]/div[7]/div[1]/div/a[2]/span[1]");
