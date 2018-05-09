@@ -5,8 +5,6 @@
 
 package mavenMod.amazonProject;
 
-import static org.testng.Assert.assertTrue;
-
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -46,7 +44,7 @@ public class departmentsChooseTest {
 		
 		homePage.getPageTitle();
 		System.out.println("Page title: " + homePage.getPageTitle());
-		
+				
 		homePage.hoverDepartments();
 		
 		homePage.sportsLink();

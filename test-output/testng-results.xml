@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19439" started-at="2018-05-02T19:35:15Z" finished-at="2018-05-02T19:35:34Z">
+  <suite name="Default suite" duration-ms="16775" started-at="2018-05-09T21:09:35Z" finished-at="2018-05-09T21:09:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19439" started-at="2018-05-02T19:35:15Z" finished-at="2018-05-02T19:35:34Z">
-      <class name="mavenMod.amazonProject.departmentsChooseTest">
-        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:mavenMod.amazonProject.departmentsChooseTest@40e60ece]" name="setupBrowser" is-config="true" duration-ms="8044" started-at="2018-05-02T15:35:15Z" finished-at="2018-05-02T15:35:23Z">
+    <test name="Default test" duration-ms="16775" started-at="2018-05-09T21:09:35Z" finished-at="2018-05-09T21:09:52Z">
+      <class name="mavenMod.amazonProject.deliverTo_Test">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:mavenMod.amazonProject.deliverTo_Test@706eab5d]" name="setupBrowser" is-config="true" duration-ms="11437" started-at="2018-05-09T17:09:35Z" finished-at="2018-05-09T17:09:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method status="PASS" signature="departmentSelectTest()[pri:0, instance:mavenMod.amazonProject.departmentsChooseTest@40e60ece]" name="departmentSelectTest" duration-ms="9041" started-at="2018-05-02T15:35:23Z" finished-at="2018-05-02T15:35:32Z">
+        <test-method status="PASS" signature="testLocation()[pri:0, instance:mavenMod.amazonProject.deliverTo_Test@706eab5d]" name="testLocation" duration-ms="2434" started-at="2018-05-09T17:09:47Z" finished-at="2018-05-09T17:09:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- departmentSelectTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:mavenMod.amazonProject.departmentsChooseTest@40e60ece]" name="closeBrowser" is-config="true" duration-ms="2309" started-at="2018-05-02T15:35:32Z" finished-at="2018-05-02T15:35:34Z">
+        </test-method> <!-- testLocation -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mavenMod.amazonProject.deliverTo_Test@706eab5d]" name="afterTest" is-config="true" duration-ms="2863" started-at="2018-05-09T17:09:49Z" finished-at="2018-05-09T17:09:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- mavenMod.amazonProject.departmentsChooseTest -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- mavenMod.amazonProject.deliverTo_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

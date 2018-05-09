@@ -98,13 +98,13 @@ public class amazonHomePage {
 		
 		wait.until(ExpectedConditions.visibilityOf(campingAndHikingLink));
 		moveToAction.moveToElement(campingAndHikingLink).perform();
+		
 		Thread.sleep(500);
 				
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(campingBag)));
 		WebElement campingBagPic = driver.findElement(campingBag);
 		
 		moveToAction.moveToElement(campingBagPic).perform();
-		
 		campingBagPic.click();
 	}
 
