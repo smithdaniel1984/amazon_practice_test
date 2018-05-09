@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1525895894114" stop="1525895906694" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default suite : Default test</name>
+    <title>Default suite : Default test</title>
+    <test-cases>
+        <test-case start="1525895901994" stop="1525895903802" status="passed">
+            <name>testLocation</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="mavenMod.amazonProject.deliverTo_Test"/>
+                <label name="testMethod" value="testLocation"/>
+                <label name="host" value="GSOD-DSMITH"/>
+                <label name="thread" value="4232@GSOD-DSMITH.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1525895901994" stop="1525895903802" status="passed">
+            <name>testLocation</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default suite"/>
+                <label name="testGroup" value="Default test"/>
+                <label name="testClass" value="mavenMod.amazonProject.deliverTo_Test"/>
+                <label name="testMethod" value="testLocation"/>
+                <label name="host" value="GSOD-DSMITH"/>
+                <label name="thread" value="4232@GSOD-DSMITH.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

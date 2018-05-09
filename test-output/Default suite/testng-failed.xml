@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="mavenMod.amazonProject.departmentsChooseTest">
+      <class name="mavenMod.amazonProject.deliverTo_Test">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="departmentSelectTest"/>
           <include name="setupBrowser"/>
+          <include name="testLocation"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- mavenMod.amazonProject.departmentsChooseTest -->
+      </class> <!-- mavenMod.amazonProject.deliverTo_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
